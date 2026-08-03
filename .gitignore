@@ -1,0 +1,14 @@
+# Gradle / Java
+.gradle/
+build/
+
+# Agent cục bộ (kho kiến thức + log lỗi, không phải mã nguồn)
+kb.db
+
+# Dữ liệu chạy: storage.root trong SPEC §12
+data/
+
+# IDE
+.idea/
+*.iml
+.vscode/
