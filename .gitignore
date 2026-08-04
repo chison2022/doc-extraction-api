@@ -3,7 +3,8 @@
 build/
 
 # Agent cục bộ (kho kiến thức + log lỗi, không phải mã nguồn)
-kb.db
+# kb.db* để bắt luôn kb.db-wal / kb.db-shm mà SQLite sinh ra ở chế độ WAL
+kb.db*
 
 # Dữ liệu chạy: storage.root trong SPEC §12
 data/
